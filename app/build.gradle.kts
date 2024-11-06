@@ -48,5 +48,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(org.pytorch.pytorch_android_lite)
+    implementation(org.pytorch.pytorch_android_torchvision)
     testImplementation(libs.junit)
+
 }
